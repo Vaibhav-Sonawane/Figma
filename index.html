@@ -1,0 +1,153 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Our Work</title>
+  <style>
+    * {
+      margin: 0;
+      padding: 0;
+      box-sizing: border-box;
+    }
+    body {
+      font-family: 'Segoe UI', sans-serif;
+      background: #f9f9f9;
+      color: #1a1a1a;
+    }
+    header, section, footer {
+      padding: 60px 20px;
+      max-width: 1200px;
+      margin: auto;
+    }
+    .hero {
+      text-align: center;
+    }
+    .hero h1 {
+      font-size: 48px;
+      margin-bottom: 10px;
+    }
+    .hero p {
+      font-size: 20px;
+      color: #666;
+    }
+
+    .carousel {
+      display: flex;
+      overflow-x: auto;
+      gap: 20px;
+      padding: 20px 0;
+    }
+    .carousel img {
+      height: 200px;
+      border-radius: 12px;
+      object-fit: cover;
+    }
+
+    .portfolio {
+      display: grid;
+      grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
+      gap: 30px;
+    }
+    .project-card {
+      background: white;
+      border-radius: 10px;
+      box-shadow: 0 0 10px rgba(0,0,0,0.05);
+      padding: 20px;
+    }
+    .project-card h3 {
+      margin: 10px 0;
+    }
+
+    .testimonials {
+      background: #fff;
+      border-radius: 12px;
+      padding: 40px;
+      box-shadow: 0 2px 10px rgba(0,0,0,0.05);
+    }
+    .testimonial {
+      margin-bottom: 30px;
+    }
+    .testimonial p {
+      font-style: italic;
+      color: #444;
+    }
+    .cta {
+      background: #003366;
+      color: white;
+      padding: 60px 40px;
+      border-radius: 10px;
+      text-align: center;
+    }
+    .cta h2 {
+      margin-bottom: 20px;
+    }
+    .cta button {
+      padding: 12px 24px;
+      font-size: 16px;
+      background: white;
+      color: #003366;
+      border: none;
+      border-radius: 6px;
+      cursor: pointer;
+    }
+
+    footer {
+      text-align: center;
+      font-size: 14px;
+      color: #777;
+      border-top: 1px solid #ddd;
+      padding-top: 30px;
+    }
+  </style>
+</head>
+<body>
+  <header class="hero">
+    <h1>Our Work</h1>
+    <p>Discover the impact we’ve created through community initiatives and outreach.</p>
+  </header>
+
+  <section class="carousel">
+    <img src="https://via.placeholder.com/300x200?text=Event+1" alt="Event 1">
+    <img src="https://via.placeholder.com/300x200?text=Event+2" alt="Event 2">
+    <img src="https://via.placeholder.com/300x200?text=Event+3" alt="Event 3">
+    <img src="https://via.placeholder.com/300x200?text=Event+4" alt="Event 4">
+  </section>
+
+  <section class="portfolio">
+    <div class="project-card">
+      <h3>Food Distribution Program</h3>
+      <p>We’ve distributed meals to over 10,000 families during crisis periods.</p>
+    </div>
+    <div class="project-card">
+      <h3>Educational Support</h3>
+      <p>Provided online and offline tutoring to underprivileged children in 5 cities.</p>
+    </div>
+    <div class="project-card">
+      <h3>Clean Water Initiative</h3>
+      <p>Installed water purifiers and awareness campaigns in rural communities.</p>
+    </div>
+  </section>
+
+  <section class="testimonials">
+    <div class="testimonial">
+      <p>“This NGO truly changed our village. We finally have clean drinking water.”</p>
+      <strong>- Local Resident</strong>
+    </div>
+    <div class="testimonial">
+      <p>“The team’s commitment to education is making a real difference.”</p>
+      <strong>- School Principal</strong>
+    </div>
+  </section>
+
+  <section class="cta">
+    <h2>Want to Join or Support Us?</h2>
+    <p>We welcome volunteers, donors, and partners to collaborate with us in our mission.</p>
+    <button>Contact Us</button>
+  </section>
+
+  <footer>
+    © 2025 NGO Organization. All rights reserved.
+  </footer>
+</body>
+</html>
